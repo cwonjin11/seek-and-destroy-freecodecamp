@@ -2,8 +2,8 @@ function destroyer(arr) {
     // console.log(arguments)
     const argumentsArray = [...arguments].slice(1)
     // [2,3]
-    // console.log(argumentsArray.slice(1), "<== sliced")
-    // console.log(argumentsArray, "argumentsArray")
+    console.log(argumentsArray.slice(1), "<== sliced")
+    console.log(argumentsArray, "argumentsArray")
 
     const filteredArray = [];
     for(let i=0; i<arr.length; i++){
